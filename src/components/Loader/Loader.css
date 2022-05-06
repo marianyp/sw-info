@@ -1,0 +1,16 @@
+.loader {
+	width: 8rem;
+	height: 8rem;
+
+	border: 0.45rem solid hsla(216, 100%, 52%, 0.236);
+	border-top-color: hsl(216, 100%, 52%);
+	border-radius: 50%;
+
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
